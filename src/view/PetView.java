@@ -66,7 +66,7 @@ public class PetView {
         frame.setVisible(true);
     }
 
-    // the method of getHealthEventText
+   // the method of setPetInfo
     public void setPetInfo(String info) {
         petInfoTextArea.setText(info);
     }

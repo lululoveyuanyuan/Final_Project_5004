@@ -24,7 +24,7 @@ public abstract class Pet {
         this.age = age;
         this.breed = breed;
     }
-    // Constructor for model.Pet that takes only the name
+
     public void addHealthRecord(HealthEvent event) {
         healthRecord.add(event);
     }
